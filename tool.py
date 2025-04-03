@@ -30,7 +30,7 @@ def get_driver_with_profile():
     """
     options = Options()
     # Use existing Chrome profile - CHANGE THIS PATH TO YOUR USERNAME
-    options.add_argument("user-data-dir=C:\\Users\\Guga\\AppData\\Local\\Google\\Chrome\\User Data")
+    options.add_argument("user-data-dir=C:\\Users\\YOUR_USERNAME\\AppData\\Local\\Google\\Chrome\\User Data")
     options.add_argument("profile-directory=Default")
     # Add necessary options to prevent crashes
     options.add_argument("--no-sandbox")
